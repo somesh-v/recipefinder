@@ -1,0 +1,44 @@
+/* src/styles/RecipeCard.css */
+.recipe-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    width: 250px;
+    text-align: center;
+  }
+  
+.recipe-image {
+  width: 100%;
+  height: 150px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the image covers the area without distorting */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+  .recipe-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .favorite-btn {
+    background-color: #f8b400;
+    color: white;
+  }
+  
+  .ingredients-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  

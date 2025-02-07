@@ -1,0 +1,37 @@
+.recipe-details {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.recipe-details h2 {
+  margin-bottom: 10px;
+}
+
+.recipe-details .recipe-description {
+  font-style: italic;
+  margin: 10px 0 20px;
+  color: black;
+}
+
+.recipe-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recipe-details li {
+  margin: 5px 0;
+}
+.toggle-instructions-btn {
+  margin: 10px 0;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-instructions-btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,73 @@
+/* Favorites.css */
+
+/* Main container for the favorites list */
+.favorites {
+  background-color: #c0f7ca; /* Light background color */
+  padding: 30px;
+  max-width: 900px;
+  margin: 40px auto; /* Center the container */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center align the text */
+}
+
+/* Title for the favorites section */
+.favorites h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Recipe cards layout */
+.recipe-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  justify-items: center; /* Center cards horizontally */
+}
+
+/* Message when there are no favorite recipes */
+.favorites p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 30px;
+}
+
+/* Button for requesting a new recipe */
+.favorites button {
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #ff6b6b; /* Soft red color for the button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.favorites button:hover {
+  background-color: #e55a5a; /* Darker red on hover */
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .favorites {
+    padding: 20px;
+  }
+
+  .favorites h2 {
+    font-size: 1.8rem;
+  }
+
+  .favorites button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .recipe-cards {
+    grid-template-columns: 1fr; /* Stack cards vertically on small screens */
+  }
+}

@@ -1,0 +1,65 @@
+.submitted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/open-blank-recipe-book-brown-wooden-background_155003-7745.jpg');
+    background-size: cover; /* Scales the image to cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; 
+  }
+  
+  .submitted-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    overflow-y: auto; /* Scroll if content overflows */
+  }
+  
+  .submitted-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .submission-list {
+    text-align: left;
+  }
+  
+  .submission-item {
+    margin-bottom: 15px;
+  }
+  
+  .submission-item p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin: 5px 0;
+  }
+  
+  .submitted h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .submitted button {
+    background-color: #f16e27;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitted button:hover {
+    background-color: #14962a;
+  }
+  
+  .submitted button:focus {
+    outline: none;
+  }
+  

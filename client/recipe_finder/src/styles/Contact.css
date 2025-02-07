@@ -1,0 +1,100 @@
+/* Contact.css */
+
+/* Main container for the contact form */
+.contact {
+    background-color: #f7f9fc; /* Light background color */
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto; /* Center the form */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  /* Title for the contact form */
+  .contact h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center; /* Center the title */
+  }
+  
+  /* Form input fields */
+  .contact form div {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* Labels */
+  .contact label {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Input fields */
+  .contact input[type="text"],
+  .contact input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus effect on input fields */
+  .contact input[type="text"]:focus,
+  .contact input[type="email"]:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+  }
+  
+  /* Submit button */
+  .contact button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #28a745; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .contact button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Success/Error message styling */
+  .contact p {
+    font-size: 1rem;
+    color: #28a745; /* Success message color */
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Error message color */
+  .contact p.error {
+    color: #dc3545; /* Red color for errors */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .contact {
+      padding: 20px;
+    }
+  
+    .contact h2 {
+      font-size: 1.6rem;
+    }
+  
+    .contact button {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
+  
