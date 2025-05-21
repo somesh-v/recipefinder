@@ -15,7 +15,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Spotify-Backend
+        working-directory: ./server
 
     steps:
       - name: Checkout code
