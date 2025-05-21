@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Test Completed Successfully"",
+    "test": "echo Test Completed Successfully",
     "start": "node server.js"
   },
   "keywords": [],
